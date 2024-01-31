@@ -6,7 +6,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Navigation = () => {
     return (
-        <Navbar sticky="top" className="bg-body-tertiary" data-bs-theme="dark">
+        <Navbar sticky="top" style={{ height: "74px" }} className={`bg-body-tertiary`} data-bs-theme="dark">
             <Container>
                 <Navbar.Brand href="#home">
                     <img

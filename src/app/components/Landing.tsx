@@ -1,6 +1,7 @@
 const Landing = () => {
     const containerStyle = {
-        height: `calc(100vh - 74px)`,
+        // height: `calc(100vh - 74px)`,
+        height: `100vh`,
     };
 
     return (
@@ -14,7 +15,7 @@ const Landing = () => {
                     alt="Album Cover"
                 />
                 <div className="d-flex flex-column justify-content-center align-items-center">
-                    <h1>Prospect Gallery</h1>
+                    <h2 className="font-weight-bold">Prospect Gallery</h2>
                     <p>Release Date</p>
                     <p>Pre-Save Here</p>
                 </div>

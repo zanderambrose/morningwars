@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 
 const Merch = () => {
     return (
-        <div id="shows" className="d-flex flex-column  align-items-center" style={{ height: "30vh" }}>
+        <div id="shows" className="d-flex flex-column  align-items-center mt-5">
             <h2 className="font-weight-bold mb-4 fs-1">Shows</h2>
             <Container>
                 <Row className="my-2">

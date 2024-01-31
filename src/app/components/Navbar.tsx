@@ -1,9 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
-const Nav = () => {
+const Navigation = () => {
     return (
         <Navbar sticky="top" className="bg-body-tertiary" data-bs-theme="dark">
             <Container>
@@ -16,8 +17,12 @@ const Nav = () => {
                         alt="Morning Wars logo"
                     />
                 </Navbar.Brand>
-                <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
+                    <Nav.Link className="text-white me-4" href="#home">Home</Nav.Link>
+                    <Nav.Link className="text-white me-4" href="#video">Video</Nav.Link>
+                    <Nav.Link className="text-white me-4" href="#merch">Merch</Nav.Link>
+                    <Nav.Link className="text-white me-4" href="#shows">Shows</Nav.Link>
+                    <Nav.Link className="text-white me-5" href="#contact">Contact</Nav.Link>
                     <FontAwesomeIcon icon={faBars} size="2xl" color="white" />
                 </Navbar.Collapse>
             </Container>
@@ -26,4 +31,4 @@ const Nav = () => {
     )
 }
 
-export default Nav
+export default Navigation

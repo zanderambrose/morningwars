@@ -1,11 +1,11 @@
 "use client"
 
-import Nav from "./components/Navbar"
+import Navigation from "./components/Navbar"
 
 export default function Home() {
     return (
         <main>
-            <Nav />
+            <Navigation />
         </main>
     );
 }

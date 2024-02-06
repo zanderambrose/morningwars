@@ -22,7 +22,7 @@ const Navigation = () => {
         }
     };
     return (
-        <Navbar ref={navbarRef} sticky="top" style={{ height: "74px" }} className={`bg-body-tertiary`} data-bs-theme="dark">
+        <Navbar ref={navbarRef} sticky="top" style={{ height: "74px", backgroundColor: "#df571b" }} className={`bg-body-tertiary`}>
             <Container>
                 <Navbar.Brand href="#home">
                     <img

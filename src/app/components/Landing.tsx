@@ -2,13 +2,14 @@ const Landing = () => {
     const containerStyle = {
         // height: `calc(100vh - 74px)`,
         height: `100vh`,
+        backgroundColor: "#df571b"
     };
 
     return (
         <div id="home" className="d-flex align-items-center" style={containerStyle}>
             <div className="d-flex justify-content-evenly" style={{ width: "100%" }}>
                 <img
-                    src="/morningwarslogo.jpeg"
+                    src="/Morning-Wars-logo-WHITE.png"
                     width="500"
                     height="500"
                     className="d-inline-block align-top"
